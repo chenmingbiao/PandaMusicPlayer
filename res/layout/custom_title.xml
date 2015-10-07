@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/head_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="" 
+        android:textSize="20dp"
+        android:textColor="#f6f6f6"
+        />
+    
+    <!-- <TextView
+        android:id="@+id/ head_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="" 
+        android:textSize="36dp"
+        android:textColor="#f6f6f6"/>-->
+    	
+   <Button
+    	android:id="@+id/ search"
+        android:layout_width="23dp"   
+        android:layout_height="23dp"
+        android:background="@drawable/upsearch"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentLeft="true"/>
+    	
+   <Button
+    	android:id="@+id/ updetail"
+        android:layout_width="23dp"   
+        android:layout_height="23dp"
+        android:background="@drawable/desktop_updetail_b"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

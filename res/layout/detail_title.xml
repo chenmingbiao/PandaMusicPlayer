@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+     <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#252525" 
+        android:layout_height="80dp">
+
+        <Button
+	    	android:id="@+id/ btnback"
+	        android:layout_width="23dp"   
+	        android:layout_height="23dp"
+	        android:background="@drawable/pre"
+	        android:gravity="center"
+	        android:layout_marginTop="12dp"
+	        android:layout_marginLeft="8dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"/>  
+	           
+        <TextView
+            android:id="@+id/tv_songname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:maxLength="12"
+            android:shadowColor="@color/like_bg"
+            android:singleLine="true"
+            android:text="TheSong Name"
+            android:textColor="#f6f6f6"
+            android:textSize="22dp"
+            android:layout_centerVertical="true" />
+       
+       <Button
+	    	android:id="@+id/ albumlist"
+	        android:layout_width="28dp"   
+	        android:layout_height="20dp"
+	        android:background="@drawable/albumlist"
+	        android:gravity="center"
+	        android:layout_marginTop="12dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"/>  
+
+        <!-- <TextView
+            android:layout_width="1dp"
+            android:layout_height="46dp"
+            android:layout_margin="3dp"
+            android:layout_toLeftOf="@+id/chose_albumlist"
+            android:background="#70a1a1a1" />-->
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+

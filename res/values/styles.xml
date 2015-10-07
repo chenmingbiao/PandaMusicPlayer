@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">  
+    <style name="TitleBarBackground">  
+        <item name="android:background">#252525</item>  
+    </style>  
+      
+     <style name="MyCustomTheme" parent="android:Theme">       
+         <item name="android:windowTitleBackgroundStyle">@style/TitleBarBackground</item>  
+         <item name="android:windowTitleSize">50dp</item>  
+     </style>   
+  
+</resources>  

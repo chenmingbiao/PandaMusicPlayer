@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PandaMusicPlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tip_reach_top">已经到达列表顶端，现在播放最后一曲</string>
+    <string name="tip_reach_bottom">已经到达列表底端，现在播放第一曲</string>
+    <string name="tip_no_music_file">没有找到音乐文件，请先添加音乐文件</string>
+
+</resources>
